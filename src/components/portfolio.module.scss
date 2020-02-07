@@ -1,0 +1,44 @@
+.portfolioHeader{
+    margin-left: 1rem;
+}
+
+.portfolio-parent{
+    // margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    // margin: 0 auto;
+}
+
+.portfolio-parent > div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio-1 {
+    margin: 1rem;
+    min-height: 10rem;
+    background-color: orange;
+    // display:flex;
+}
+
+.portfolio-2 {
+    margin: 1rem;
+    min-height: 10rem;
+    background-color: red;
+}
+
+.portfolio-3 {
+    margin: 1rem;
+    min-height: 10rem;
+    background-color: blue;
+}
+
+.portfolio-4 {
+    margin: 1rem;
+    min-height: 10rem;
+    background-color: grey;
+}
