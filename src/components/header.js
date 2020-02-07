@@ -18,24 +18,31 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            <h1>
+            {/* <h1>
                 <Link to="/" className={headerStyles.title}>
                 {data.site.siteMetadata.title}
                 </Link>
-            </h1>
-            <nav className={headerStyles.nav} >
-                <ul className={headerStyles.navList}>
-                    <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </nav>
+            </h1> */}
+            <div className={headerStyles.container}>
+                <h1>
+                    <Link to="/" className={headerStyles.title}>
+                    {data.site.siteMetadata.title}
+                    </Link>
+                </h1>
+                <nav className={headerStyles.nav} >
+                    <ul className={headerStyles.navList}>
+                        <li>
+                            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
     )
 }

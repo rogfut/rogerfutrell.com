@@ -8,7 +8,7 @@ const Index = () => {
 
     return (
         <Layout>
-            <h2>Hello!</h2>
+            <h1>Hello!</h1>
             <h3>I'm an IT professional living in Seattle working on Azure Kubernetes Service</h3>
             <h3>Pardon my mess while I get this site up and running</h3>
         </Layout>

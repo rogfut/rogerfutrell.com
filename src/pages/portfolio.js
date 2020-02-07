@@ -11,16 +11,24 @@ const Portfolio = () => {
                 <h1 className={portfolioStyles.portfolioHeader}>Portfolio</h1>
                 <div className={portfolioStyles.portfolioParent}>
                     <div className={portfolioStyles.portfolio1}>
-                        <figcaption>Text Below Image</figcaption>
+                        {/* <figure>
+                            <img src="../img/btc.png" alt="port-1" style="width:100%"></img>
+                            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                        </figure> */}
+                    {/* <figcaption>Text Below Image</figcaption> */}
+                    <p>Text at bottom of image</p>
                     </div>
                     <div className={portfolioStyles.portfolio2}>
-                    <figcaption>Text Below Image</figcaption>
+                    {/* <figcaption>Text Below Image</figcaption> */}
+                    <p>Text at bottom of image</p>
                     </div>
                     <div className={portfolioStyles.portfolio3}>
-                    <figcaption>Text Below Image</figcaption>
+                    {/* <figcaption>Text Below Image</figcaption> */}
+                    <p>Text at bottom of image</p>
                     </div>
                     <div className={portfolioStyles.portfolio4}>
-                    <figcaption>Text Below Image</figcaption>
+                    {/* <figcaption>Text Below Image</figcaption> */}
+                    <p>Text at bottom of image</p>
                     </div>
                 </div>
             </div>
