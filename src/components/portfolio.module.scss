@@ -35,18 +35,12 @@
     // margin-bottom: 2rem;
 }
 
-// .portfolio-parent > div > img {
-//     height: 100%;
-//     width: 100%;
-//     margin: 0 !important;
-// }
-
-.portfolio-item > div {
+.portfolio-parent > div > div {
     margin: 0;
 }
 
 .portfolio-parent > div:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .portfolio-parent > div > p {
@@ -56,6 +50,57 @@
 .portfolio-item .portfolio-image {
     margin: 0;
 }
+
+.portfolio-item-1, .portfolio-item-2, .portfolio-item-3, .portfolio-item-4 {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    min-height: 25vh;
+}
+
+.portfolio-item-1 {
+    background: linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%);
+}
+
+.portfolio-item-2 {
+    background: linear-gradient(to right, rgb(102, 45, 140) 0%, rgb(237, 30, 121) 100%);
+}
+
+.portfolio-item-3 {
+    background: linear-gradient(to right, rgb(0, 146, 69) 0%, rgb(252, 238, 33) 100%);
+}
+
+.portfolio-item-4 {
+    background: linear-gradient(to right, rgb(213, 133, 255) 0%, rgb(0, 255, 238) 100%);
+}
+
+.item-1-description, .item-2-description, .item-3-description, .item-4-description {
+    margin: .5rem 0 .5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+// .portfolio-parent > div > a{
+//     display: flex;
+//     flex-basis: calc(50% - 40px);
+//     justify-content: center;
+//     flex-direction: row;
+//     margin: .5rem;
+//     // margin-bottom: 2rem;
+// }
+
+// .portfolio-parent > div > img {
+//     height: 100%;
+//     width: 100%;
+//     margin: 0 !important;
+// }
+
+
 
 // .portfolio-item .item-1 {
 //     background-color: red;
