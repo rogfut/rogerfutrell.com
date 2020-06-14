@@ -1,9 +1,17 @@
 @media only screen and (max-width: 600px) {
     .container {
-      background-color: teal;
+      background-color:#4e535c;
       padding: 2rem 2rem 0 2rem !important;
       justify-content: center !important;
     }
+    body .title {
+        text-decoration: none;
+        color: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    body .nav-item {
+        color: #ffffff !important;
+    }
+
   }
 
 .header {
@@ -73,7 +81,7 @@
     // display: inline;
     flex-direction: row;
     text-decoration: none;
-    color: #999999;
+    color: #000000;
     margin: 0 1rem 0 1rem;
 }
 
@@ -85,7 +93,7 @@
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #379683;
     text-decoration: none;
 }
 

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    .main .logos {
+
+    }
+}
+
+.main {
+    text-align: left;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    // min-height: 100%;
+}
+
+.logos > div {
+    display: flex;
+    flex-basis: calc(33% - 40px);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem
+}
+
+.logos > div > img {
+    max-height: 120px;
+    justify-content: center;
+    margin: 0;
+}

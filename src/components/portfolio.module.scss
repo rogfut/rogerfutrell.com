@@ -1,9 +1,28 @@
+@media only screen and (max-width: 600px) {
+    body .portfolio-parent > div {
+        flex-basis: 100%;
+    }
+}
+
+.portfolio-main {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
 .portfolio-parent{
-    // margin-left: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 100%;
+    justify-content: center;
+    width: 80%;
+    // flex-basis: 50%;
     // margin: 0 auto;
 }
 
@@ -11,8 +30,19 @@
     display: flex;
     flex-basis: calc(50% - 40px);
     justify-content: center;
-    flex-direction: column;
-    margin-bottom: 2rem;
+    flex-direction: row;
+    margin: .5rem;
+    // margin-bottom: 2rem;
+}
+
+// .portfolio-parent > div > img {
+//     height: 100%;
+//     width: 100%;
+//     margin: 0 !important;
+// }
+
+.portfolio-item > div {
+    margin: 0;
 }
 
 .portfolio-parent > div:hover {
@@ -23,39 +53,47 @@
     text-align: center;
 }
 
-.portfolio-1 {
-    // margin: 1rem 1rem 1rem 0;
-    margin: auto;
-    margin-left: 0;
-    min-height: 20rem;
-    max-width: 30rem;
-    background-color: orange;
-    // display:flex;
+.portfolio-item .portfolio-image {
+    margin: 0;
 }
 
-.portfolio-2 {
-    // margin: 1rem 1rem 1rem 0;
-    margin: auto;
-    margin-left: 0;
-    min-height: 20rem;
-    max-width: 30rem;
-    background-color: red;
-}
+// .portfolio-item .item-1 {
+//     background-color: red;
+// }
 
-.portfolio-3 {
-    // margin: 1rem 1rem 1rem 0;
-    margin: auto;
-    margin-left: 0;
-    min-height: 20rem;
-    max-width: 30rem;
-    background-color: blue;
-}
+// .portfolio-item-1 {
+//     // margin: 1rem 1rem 1rem 0;
+//     margin: auto;
+//     margin-left: 0;
+//     min-height: 20rem;
+//     max-width: 30rem;
+//     background-color: orange;
+//     // display:flex;
+// }
 
-.portfolio-4 {
-    // margin: 1rem 1rem 1rem 0;
-    margin: auto;
-    margin-left: 0;
-    min-height: 20rem;
-    max-width: 30rem;
-    background-color: grey;
-}
+// .portfolio-item-2 {
+//     // margin: 1rem 1rem 1rem 0;
+//     margin: auto;
+//     margin-left: 0;
+//     min-height: 20rem;
+//     max-width: 30rem;
+//     background-color: red;
+// }
+
+// .portfolio-item-3 {
+//     // margin: 1rem 1rem 1rem 0;
+//     margin: auto;
+//     margin-left: 0;
+//     min-height: 20rem;
+//     max-width: 30rem;
+//     background-color: blue;
+// }
+
+// .portfolio-item-4 {
+//     // margin: 1rem 1rem 1rem 0;
+//     margin: auto;
+//     margin-left: 0;
+//     min-height: 20rem;
+//     max-width: 30rem;
+//     background-color: grey;
+// }
