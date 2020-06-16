@@ -14,9 +14,9 @@
 
   }
 
+
 .header {
     justify-content: center;
-
     // trying to setup a navbar fixed at top
     // position: fixed;
     // width: 100%;
@@ -43,7 +43,8 @@
 
 .title {
     text-decoration: none;
-    color: rgba($color: #000000, $alpha: 0.8);
+    color: white;
+    // color: rgba($color: #000000, $alpha: 0.8);
 }
 
 .header .container {
@@ -58,7 +59,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    min-height: 10rem;
+    min-height: 8rem;
     // position: fixed;
     // margin: auto;
 }
@@ -67,6 +68,7 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    color: white;
     // flex-direction: row;
 }
 
@@ -81,7 +83,8 @@
     // display: inline;
     flex-direction: row;
     text-decoration: none;
-    color: #000000;
+    // color: #000000;
+    color: white;
     margin: 0 1rem 0 1rem;
 }
 
@@ -93,7 +96,7 @@
 }
 
 .active-nav-item {
-    color: #379683;
+    color: #4a5568;
     text-decoration: none;
 }
 

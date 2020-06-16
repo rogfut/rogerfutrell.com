@@ -15,30 +15,26 @@ const Portfolio = () => {
                 <div className={portfolioStyles.portfolioParent}>
                     <div className={portfolioStyles.portfolioItem1}>
                         <a href="https://github.com/rogfut" target="_blank">
-                        <div  className={portfolioStyles.item1Description}>Description of item 1</div>
-                        <div className={portfolioStyles.item1Header}>Item 1</div>
-                        {/* <img className={portfolioStyles.portfolioImage} src={img1} alt="portfolio-item 1"></img> */}
+                        <p>JAMSTACK static site hosted on Azure Storage.</p>
+                        <h4>ROGERFUTRELL.COM</h4>
                         </a>
                     </div>
                     <div className={portfolioStyles.portfolioItem2}>
                         <a href="https://github.com/rogfut" target="_blank">
-                        <div className={portfolioStyles.item2Description}>Description of item 2</div>
-                        <div className={portfolioStyles.item2Header}>Item 2</div>
-                        {/* <img className={portfolioStyles.portfolioImage} src={img2} alt="portfolio-item 2"></img> */}
+                        <p>Serverless bot that buys btc for me.</p>
+                        <h4>BUY BTC BOT</h4>
                         </a>
                     </div>
                     <div className={portfolioStyles.portfolioItem3}>
                         <a href="https://github.com/rogfut" target="_blank">
-                        <div className={portfolioStyles.item3Description}>Description of item 4</div>
-                        <div className={portfolioStyles.item3Header}>Item 3</div>
-                        {/* <img className={portfolioStyles.portfolioImage} src={img3} alt="portfolio-item 3"></img> */}
+                        <p>Coming soon! What could it be?</p>
+                        <h4>Myster Project :)</h4>
                         </a>
                     </div>
                     <div className={portfolioStyles.portfolioItem4}>
                         <a href="https://github.com/rogfut" target="_blank">
-                        <div className={portfolioStyles.item4Description}>Description of item 4</div>
-                        <div className={portfolioStyles.item4Header}>Item 4</div>
-                        {/* <img className={portfolioStyles.portfolioImage} src={img4} alt="portfolio-item 4"></img> */}
+                        <p>Coming soon! Stay tuned to find out :)</p>
+                        <h4>Mystery Project :)</h4>
                         </a>
                     </div>
                 </div>

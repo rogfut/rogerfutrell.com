@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from '../components/layout'
+import indexStyles from "../components/index.module.scss"
 
 const Index = () => {
     var taglineStyle = {
