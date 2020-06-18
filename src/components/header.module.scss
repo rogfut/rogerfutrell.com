@@ -9,7 +9,11 @@
         color: rgba($color: #ffffff, $alpha: 0.8);
     }
     body .nav-item {
-        color: #ffffff !important;
+        color: #ffffff;
+    }
+
+    body .active-nav-item {
+        color: #ffd83b;
     }
 
   }
